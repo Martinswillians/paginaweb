@@ -1,9 +1,12 @@
-.about__paragraph {
+.academic__courses__item__subtitle {
+    
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    /* identical to box height */
+
 
     /* Preto/100% */
 

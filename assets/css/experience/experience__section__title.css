@@ -1,4 +1,7 @@
-.about__title {
+.experience__section__title {
+    width: 364px;
+    height: 38px;
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -6,6 +9,7 @@
     line-height: 38px;
     /* identical to box height */
 
+   
 
     /* Preto/100% */
 

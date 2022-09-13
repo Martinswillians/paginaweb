@@ -41,20 +41,11 @@ header {
 
 .title__div {
     display: flex;
-    align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
-    
-    margin-Left: 152px;
-    margin-right: 152px;
-    width: 1440px;
-    
-
-    background-color: rgb(153, 166, 192);
-
-    
-
+    align-items: center;
+    padding: 0px;
+    gap: 208px;
 }
 
 .title__container{
@@ -65,28 +56,25 @@ header {
     padding: 0px;
     gap: 24px;
 
-    width: 751px;
-    height: 246px;
-
-   
+    
 }
 .title__profile {
-    
+
+    align-items: center ;
     
 }
 
 .title__network {   
+        
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    
-
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;  
 }
 
 .title__bio {
     
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -99,10 +87,7 @@ header {
 }
 
 .title__subsection {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
+   
     line-height: 26px;
 
     /* Preto/100% */
@@ -117,10 +102,7 @@ header {
     padding: 64px;
     gap: 10px;
     
-    margin-left: 152px;
-    width: 1440px;
-    height: 383px;
-
+    
     /* Azul/10% */
 
     background: #0864e6;
@@ -133,10 +115,8 @@ header {
     padding: 0px;
     gap: 16px;
 
-    width: 1136px;
-    height: 255px;
-
-    background: #EAF2FD;
+    
+    
 }
 
 .about__title {
@@ -166,10 +146,12 @@ header {
     color: #464646;
 }
 
-.Container-skills-hobbies-formacao {
-    background-color: darksalmon;
-    width: 1440px;
-    height: 1245px;
+.container-skills-hobbies-formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 88px;
 }
 
 .skills {
@@ -178,18 +160,12 @@ header {
     align-items: center;
     padding: 0px;
     gap: 32px;
-    margin-left: 152px;
-    margin-right: 152px;
-
-    width: 1136px;
-    height: 244px;
-    background-color: rgb(73, 14, 14);
+    
 
 }
 
 .skills__title {
-    width: 82px;
-    height: 38px;
+    
 
     font-family: 'Raleway';
     font-style: normal;
@@ -200,9 +176,7 @@ header {
 
     text-align: center;
 
-    /* Preto/100% */
-
-    color: #464646;
+    ;
 }
 
 .skills__line {
@@ -212,10 +186,7 @@ header {
     padding: 0px;
     gap: 16px;
 
-    width: 1136px;
-    height: 174px;
-
-    background-color: crimson;
+   
 }
 
 .skills__box {
@@ -226,13 +197,7 @@ header {
     padding: 16px;
     gap: 8px;
 
-    width: 176px;
-    height: 174px;
-
-    /* Preto/branco */
-
-    background: #FFFFFF;
-
+   
 }
 
 .hobbies {
@@ -241,14 +206,7 @@ header {
     align-items: center;
     padding: 0px;
     gap: 32px;
-    margin-top: 120px;
-    margin-left: 152px;
-    margin-right: 152px;
-
-    width: 1136px;
-    height: 244px;
-
-    background-color: rgb(235, 193, 110);
+    
 }
 
 .hobbies__title {
@@ -304,31 +262,17 @@ header {
     padding: 82px;
     gap: 32px;
 
-    width: 1440px;
-    height: 581px;
-
-    /* Azul/10% */
-
-    background: #EAF2FD;
+  
 
 }
 
 .academic__title {
-    width: 339px;
-    height: 38px;
-
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
+   
     /* identical to box height */
 
     text-align: center;
 
-    /* Preto/100% */
-
-    color: #464646;
+    
 }
 .academic__courses {
     display: flex;
@@ -337,13 +281,10 @@ header {
     padding: 0px;
     gap: 16px;
 
-    width: 1136px;
-    height: 347px;
-
-    background-color: coral;
+    
 }
 
-.acacademic__courses__box {
+.academic__courses__box {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -351,12 +292,7 @@ header {
     padding: 16px;
     gap: 10px;
 
-    width: 368px;
-    height: 286px;
-
-    /* Preto/branco */
-
-    background: #FFFFFF;
+    
 }
 .academic__courses__item__img {
     display: flex;
@@ -366,45 +302,55 @@ header {
     padding: 16px;
     gap: 10px;
 
-    width: 368px;
-    height: 286px;
-
-    /* Preto/branco */
-
-    background: #FFFFFF;
+    
 }
 .academic__courses__item__title {
-    width: 178px;
-    height: 26px;
+   
 
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    /* identical to box height */
-
-
-    /* Preto/100% */
-
-    color: #464646;
+  
 }
 
 .academic__courses__item__subtitle {
-    width: 92px;
-    height: 19px;
+ 
+}
 
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
+.experience.css {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    
+}
+..experience__section__title {
+    text-align: center; 
+}
 
+.experiencie__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
 
-    /* Preto/100% */
+.experience__img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+}
 
-    color: #464646;
+.experience__info {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 348px;
+height: 112px;
 }
 
 
